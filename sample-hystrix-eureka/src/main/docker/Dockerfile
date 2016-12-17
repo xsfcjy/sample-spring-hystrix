@@ -1,4 +1,4 @@
-FROM java:8
+FROM xsfcjy/java:jdk8
 VOLUME /tmp
 ADD sample-hystrix-eureka-1.0.1-SNAPSHOT.jar /app.jar
 RUN bash -c 'touch /app.jar'

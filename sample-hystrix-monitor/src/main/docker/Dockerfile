@@ -1,4 +1,4 @@
-FROM java:8
+FROM xsfcjy/java:jdk8
 VOLUME /tmp
 RUN mkdir /app
 ADD sample-hystrix-monitor-1.0.1-SNAPSHOT.jar /app/app.jar
